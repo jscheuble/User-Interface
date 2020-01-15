@@ -95,9 +95,11 @@ nav a {
 header #title {
 	width: 49%;
 	display: inline-block;
-	border: 5px solid red;
 }
-
+header {
+	border: 5px solid pink;
+	margin-top: 2%;
+}
 h1 {
 	font-size: 70px;
 	margin: 0 auto;
@@ -107,25 +109,32 @@ header div {
 	width: 49%;
 	display: inline-block;
 }
+header #title {
+	display: inline-block;
+	width: 90%;
+	text-align: center;
+}
 button {
 	border: 1px solid grey;
 	color: grey;
-	padding: 1% 6%;
 	font-size: 15px;
 	margin: 0 25%;
+	width: 37%;
+	padding: 1%;
 }
 #start {
 	justify-content: space-evenly;
 }
 #title {
-	width: 50%;
+	width: 49%;
 	padding: 10% 5%;
 }
 #snippet {
-	border: 5px solid red;
 	padding: 2%;
+	width: 50%;
 }
 /*content styles */
+
 #content-top div p {
 	height: 25%;
 	text-align: justify;
